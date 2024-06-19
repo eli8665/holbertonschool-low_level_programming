@@ -9,15 +9,15 @@
 int main(void)
 {
 int n;
-int y;
+int Last_digit;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 y = n % 10;
-if (y > 5)
+if (Last_digit > 5)
 {
 printf("greater than 5\n");
 }
-else if (y == 0)
+else if (Last_digit == 0)
 {
 printf("0\n");
 }
