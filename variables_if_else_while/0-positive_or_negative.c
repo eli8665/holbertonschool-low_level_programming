@@ -12,9 +12,9 @@ int main(void)
 		srand(time(NULL));
 		n = rand();
 		printf("the number %d is", n);
-	if (n < 0)
+	if (n > 0)
 	{
-	printf("is negative,\n");
+	printf("is positive,\n");
 	}
 	else if (n == 0)
 	{
@@ -22,7 +22,7 @@ int main(void)
 	}
 	else
 	{
-	printf("is positive.\n");
+	printf("is negetive.\n");
 	}
-	return 0;
+		return 0;
 }
